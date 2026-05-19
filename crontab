@@ -1,8 +1,0 @@
-# ┌─────────── minute (0-59)
-# │ ┌───────── heure (0-23)
-# │ │ ┌─────── jour du mois (1-31)
-# │ │ │ ┌───── mois (1-12)
-# │ │ │ │ ┌─── jour de la semaine (0-7)
-# │ │ │ │ │
-# * * * * * commande à exécuter
-  0 8 * * * python /app/scraper.py >> /app/logs.txt 2>&1

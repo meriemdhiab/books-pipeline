@@ -1,0 +1,8 @@
+books.csv
+crontab.sh
+docker-compose.yml
+Dockerfile
+pipeline.log
+pipeline.md
+requirements.txt
+run_pipeline.bat
