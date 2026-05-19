@@ -1,0 +1,19 @@
+# Version de la syntaxe Docker Compose
+version: "3.8"
+
+# Définition des services (= les conteneurs à lancer)
+services:
+
+  # Notre service s'appelle "scraper"
+  scraper:
+
+    # On dit à Docker de construire l'image depuis notre Dockerfile
+    build: .
+
+    # Nom du conteneur qui sera créé
+    container_name: books_scraper
+
+    # On connecte le dossier local au dossier dans le conteneur
+    # Ainsi le fichier books.csv sera sauvegardé sur TON ordinateur
+    volumes:
+      - .:/app
