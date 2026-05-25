@@ -9,3 +9,4 @@ run_pipeline.batbooks.csv
 pipeline.log
 __pycache__/
 *.pyc
+.DS_Store
