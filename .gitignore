@@ -5,4 +5,7 @@ Dockerfile
 pipeline.log
 pipeline.md
 requirements.txt
-run_pipeline.bat
+run_pipeline.batbooks.csv
+pipeline.log
+__pycache__/
+*.pyc
